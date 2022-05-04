@@ -1,2 +1,2 @@
 # OnlineRestaurant
-https://njegosdjukic.netlify.app/
+https://njegosdjukic-online-restaurant.netlify.app/
