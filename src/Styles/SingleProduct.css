@@ -1,0 +1,39 @@
+.products{
+    width: 30%;
+    margin: 10px;
+}
+.menu-product-image{
+    height: 400px !important;
+}
+@media only screen and (max-width : 1200px) {
+    .menu-product-image{
+        height: 300px !important;
+    }
+}
+@media only screen and (max-width : 900px){
+    .card{
+        width: 100%;
+    }
+    .menu-product-image{
+        height: 220px !important;
+    }
+}
+@media only screen and (max-width : 850px){
+    .products{
+        width: 200px;
+    }
+}
+@media only screen and (max-width : 771px){
+    .products{
+        width: 100%;
+    }
+    .card{
+        width: 60% !important;
+        margin: auto;  
+    }
+}
+@media only screen and (max-width : 420px){
+    .menu-product-image{
+        height: 300px !important;
+    }
+}

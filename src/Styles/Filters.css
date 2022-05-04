@@ -1,0 +1,56 @@
+.filters{
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+#id1{
+    animation-name: filter;
+    animation-duration: .5s;
+    position: relative;
+}
+.close-filters{
+   position: relative;
+   left: 90%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.filters > span{
+    padding-bottom: 20px;
+}
+.filters-title{
+    font-size: 30px;
+}
+@keyframes filter {
+    0%  {left : -100%;}
+    100% {left : 0%} 
+}
+@media only screen and (max-width :921px){
+    .filters{
+        width: 30%;
+    }
+}
+@media only screen and (max-width : 771px){
+    .filters{
+        width: 60%;
+        padding: 10px;
+        margin: auto;
+        height: 450px;  
+    }
+    .filters > span{
+        font-size: 20px;
+    }
+    .filters-title{
+        font-size: 18px !important;
+    } 
+}
+@media only screen and (max-width : 420px){
+    .filters{
+        width: 80%;
+    }
+    .card{
+        width: 80% !important;
+    }
+}
